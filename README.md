@@ -17,11 +17,11 @@
 <br/>
 
 ## Project Info
-**Role:** Solo Developer
-<br/>
-**Duration:** 5 hours
-<br/>
-**Tech:** C#
+> []
+> **Role:** Solo Developer
+> <br/>
+> **Duration:** 5 hours
+> <br/>**Tech:** C#
 
 ### Installation GUIDE:
 **.NET SDK Required:**
