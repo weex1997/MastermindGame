@@ -17,7 +17,6 @@
 <br/>
 
 ## Project Info
-> []
 > **Role:** Solo Developer
 > <br/>
 > **Duration:** 5 hours
