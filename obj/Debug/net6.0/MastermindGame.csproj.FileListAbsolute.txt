@@ -1,0 +1,15 @@
+C:\Users\weedo\MastermindGame\bin\Debug\net6.0\MastermindGame.exe
+C:\Users\weedo\MastermindGame\bin\Debug\net6.0\MastermindGame.deps.json
+C:\Users\weedo\MastermindGame\bin\Debug\net6.0\MastermindGame.runtimeconfig.json
+C:\Users\weedo\MastermindGame\bin\Debug\net6.0\MastermindGame.dll
+C:\Users\weedo\MastermindGame\bin\Debug\net6.0\MastermindGame.pdb
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.csproj.AssemblyReference.cache
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.AssemblyInfoInputs.cache
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.AssemblyInfo.cs
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.csproj.CoreCompileInputs.cache
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.dll
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\refint\MastermindGame.dll
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.pdb
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\MastermindGame.genruntimeconfig.cache
+C:\Users\weedo\MastermindGame\obj\Debug\net6.0\ref\MastermindGame.dll
