@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <div>
   <h3>
-    <img align="left" width="200" height="200" src="images/QfZOzZ8VwU.png"><br/>
+    <img align="left" width="200" height="200" src="MastermindGame/images/QfZOzZ8VwU.png"><br/>
     Mastermind Game
   </h3>
 </div>   
