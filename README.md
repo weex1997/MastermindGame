@@ -31,7 +31,10 @@
 > **How to Run:**
 > - Clone the repository.
 > - Open the terminal and navigate to the project directory.
-> Run the game using:
+> <br/>
+> **Run the game using:**
+>   ```bash
+> dotnet run
 
 
 ## Introduction
