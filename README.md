@@ -35,10 +35,9 @@
 
 ## Introduction
 
-*Cows and Bulls* is a logic-based number guessing game that I developed as a personal project, showcasing my skills in game development and design. The game offers a fun and intellectually stimulating experience.
+Mastermind is a classic code-breaking logic game I recreated as a terminal-based C# project. The game challenges players to decipher a hidden color code using logic and deduction within a limited number of attempts.
 
-The idea was inspired by a friend who loved playing the original game and encouraged me to create a digital version. I added a unique twist to the result display using a virtual **invoice machine**, which prints out the results of each guess. This concept worked successfully and added a creative flair to the gameplay.
-
+I developed this project as part of my application to the Savvy Kickstarter Program
 
 ##  Main Mechanics
 
