@@ -23,8 +23,10 @@
 <br/>
 **Tech:** C#
 
-**Installation GUIDE:**
+### Installation GUIDE:
+<br/>
 .NET SDK Required: .NET SDK (version [insert version] or later)
+<br/>
 **How to Run:**
  - Clone the repository.
  - Open the terminal and navigate to the project directory.
