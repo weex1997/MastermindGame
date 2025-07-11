@@ -29,11 +29,21 @@
 > .NET SDK (version [insert version] or later)
 
  **How to Run:**
- - Clone the repository.
+- Clone the repository.
 - Open the terminal and navigate to the project directory.
 - Run the game using:
-> ```bash
->   dotnet run
+```bash
+dotnet run
+```
+- You can specify the game:
+  - The hidden code.
+```bash
+dotnet run -c 1234
+```
+ - The Attempts.
+```bash
+dotnet run -t 15
+```
 
 ## Introduction
 
