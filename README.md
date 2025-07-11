@@ -32,10 +32,10 @@
 > - Clone the repository.
 > - Open the terminal and navigate to the project directory.
 > <br/>
-> **Run the game using:**
->   ```bash
-> dotnet run
-
+ **Run the game using:**
+  ```bash
+dotnet run
+```
 
 ## Introduction
 
