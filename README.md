@@ -24,7 +24,7 @@
 
 > [!NOTE]
 >**Installation GUIDE:**
-> > <br/>
+>  <br/>
 > **.NET SDK Required:**
 > .NET SDK (version [insert version] or later)
 
