@@ -17,23 +17,22 @@
 <br/>
 
 ## Project Info
-> **Role:** Solo Developer
-> <br/>
-> **Duration:** 5 hours
-> <br/>**Tech:** C#
+**Role:** Solo Developer
+<br/>
+**Duration:** 5 hours
+<br/>**Tech:** C#
 
 ### Installation GUIDE:
-**.NET SDK Required:**
-.NET SDK (version [insert version] or later)
-<br/>
-<br/>
-**How to Run:**
-- Clone the repository.
-- Open the terminal and navigate to the project directory.
-- Run the game using:
-  
-  ```bash
-  dotnet run
+> **.NET SDK Required:**
+> .NET SDK (version [insert version] or later)
+> <br/>
+> <br/>
+> **How to Run:**
+> - Clone the repository.
+> - Open the terminal and navigate to the project directory.
+> - Run the game using:
+> ```bash
+>   dotnet run
 
 ## Introduction
 
