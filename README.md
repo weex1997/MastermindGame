@@ -29,9 +29,9 @@
 .NET SDK (version [insert version] or later)
 <br/>
 **How to Run:**
- 1- Clone the repository.
- 2- Open the terminal and navigate to the project directory.
-3- Run the game using:
+- 1- Clone the repository.
+- 2- Open the terminal and navigate to the project directory.
+- 3- Run the game using:
   ```bash
 dotnet run
 ```
