@@ -23,8 +23,8 @@
 <br/>
 **Tech:** C#
 
-#### Installation GUIDE:
-.NET SDK Required:
+### Installation GUIDE:
+**.NET SDK Required:**
 .NET SDK (version [insert version] or later)
 <br/>
 **How to Run:**
