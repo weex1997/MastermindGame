@@ -23,15 +23,12 @@
 <br/>
 **Tech:** C#
 
-> [!NOTE]
-> **Installation GUIDE:**
-> <br/>
-> .NET SDK Required: .NET SDK (version [insert version] or later)
-> <br/>
-> **How to Run:**
-> - Clone the repository.
-> - Open the terminal and navigate to the project directory.
-> <br/>
+**Installation GUIDE:**
+.NET SDK Required: .NET SDK (version [insert version] or later)
+**How to Run:**
+ - Clone the repository.
+ - Open the terminal and navigate to the project directory.
+
  **Run the game using:**
   ```bash
 dotnet run
