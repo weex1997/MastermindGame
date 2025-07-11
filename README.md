@@ -43,8 +43,8 @@ I developed this project as part of my application to the Savvy Kickstarter Prog
 
 - The game randomly generates a **4-digit number** using digits from 0 to 8, with **no repeating digits**.
 - Check the player's guess by providing feedback.
--- Well-placed pieces (X) – correct digit in the correct position.
--- Misplaced pieces (Y) – correct digit but in the wrong position.
+  - Well-placed pieces (X) – correct digit in the correct position.
+  - Misplaced pieces (Y) – correct digit but in the wrong position.
 
 The player uses these clues to narrow down the correct number through logic and deduction.
 
