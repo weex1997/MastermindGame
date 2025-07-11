@@ -35,17 +35,16 @@
 
 ## Introduction
 
-Mastermind is a classic code-breaking logic game I recreated as a terminal-based C# project. The game challenges players to decipher a hidden color code using logic and deduction within a limited number of attempts.
+Mastermind is a classic code-breaking logic game I recreated as a terminal-based C# project. The game challenges players to decipher a hidden code using logical deduction within a limited number of attempts.
 
 I developed this project as part of my application to the Savvy Kickstarter Program
 
 ##  Main Mechanics
 
-- The game randomly generates a **4-digit number** using digits from 0 to 9, with **no repeating digits**.
-- Players attempt to guess this number.
-- After each guess:
-  - A **bull** means a correct digit in the correct position.
-  - A **cow** means a correct digit but in the wrong position.
+- The game randomly generates a **4-digit number** using digits from 0 to 8, with **no repeating digits**.
+- Check the player's guess by providing feedback.
+-- Well-placed pieces (X) – correct digit in the correct position.
+-- Misplaced pieces (Y) – correct digit but in the wrong position.
 
 The player uses these clues to narrow down the correct number through logic and deduction.
 
