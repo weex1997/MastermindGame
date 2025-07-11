@@ -27,7 +27,8 @@
 > **Installation GUIDE:**
 > <br/>
 > .NET SDK Required: .NET SDK (version [insert version] or later)
-> How to Run:
+> <br/>
+> **How to Run:**
 > - Clone the repository.
 > - Open the terminal and navigate to the project directory.
 > Run the game using:
