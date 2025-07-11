@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <div>
   <h3>
-    <img align="left" width="200" height="200" src="images/f11805456d9f3d08.png"><br/>
-    Cows & Bulls - Number Guessing Game
+    <img align="left" width="200" height="200" src="images/QfZOzZ8VwU.png"><br/>
+    Mastermind Game
   </h3>
 </div>   
 
@@ -19,9 +19,9 @@
 ## Project Info
 **Role:** Solo Developer
 <br/>
-**Duration:** 3 months
+**Duration:** 5 hours
 <br/>
-**Tech:** Unity, C#, PlayFab, DoTween
+**Tech:** C#
 
 > [!NOTE]
 > **Installation GUIDE:**
