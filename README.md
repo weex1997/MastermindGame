@@ -28,23 +28,22 @@
 > **.NET SDK Required:**
 > .NET SDK (version [insert version] or later)
 
- **How to Run:**
+## How to Run:
 - Clone the repository.
 - Open the terminal and navigate to the project directory.
 - Run the game using:
 ```bash
 dotnet run
 ```
-- You can specify the game:
-  - The hidden code.
+- You can specify the hidden code by using the parameter -c and follow it with the code
 ```bash
 dotnet run -c 1234
 ```
- - The Attempts.
+ - Specify the attempts by using the parameter -t and follow it with the number of attempts
 ```bash
 dotnet run -t 15
 ```
-
+- End the game file by the sequence `Ctrl + Z`.
 ## Introduction
 
 Mastermind is a classic code-breaking logic game I recreated as a terminal-based C# project. The game challenges players to decipher a hidden code using logical deduction within a limited number of attempts.
