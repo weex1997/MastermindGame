@@ -23,7 +23,8 @@
 <br/>**Tech:** C#
 
 > [!NOTE]
-**Installation GUIDE:**
+>**Installation GUIDE:**
+> > <br/>
 > **.NET SDK Required:**
 > .NET SDK (version [insert version] or later)
 
