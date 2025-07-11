@@ -23,9 +23,10 @@
 <br/>
 **Tech:** C#
 
-### Installation GUIDE:
+#### Installation GUIDE:
 <br/>
-.NET SDK Required: .NET SDK (version [insert version] or later)
+**.NET SDK Required:**
+.NET SDK (version [insert version] or later)
 <br/>
 **How to Run:**
  - Clone the repository.
