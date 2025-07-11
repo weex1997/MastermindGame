@@ -22,7 +22,8 @@
 **Duration:** 5 hours
 <br/>**Tech:** C#
 
-### Installation GUIDE:
+> [!NOTE]
+**Installation GUIDE:**
 > **.NET SDK Required:**
 > .NET SDK (version [insert version] or later)
 
