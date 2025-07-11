@@ -26,7 +26,11 @@
 > [!NOTE]
 > **Installation GUIDE:**
 > <br/>
-> Unity Version: 2020.3.34f1
+> .NET SDK Required: .NET SDK (version [insert version] or later)
+> How to Run:
+> - Clone the repository.
+> - Open the terminal and navigate to the project directory.
+> Run the game using:
 
 
 ## Introduction
