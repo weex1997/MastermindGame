@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\weedo\\MastermindGame\\MastermindGame.csproj": {}
+    "C:\\Users\\weedo\\Documents\\GitHub\\MastermindGame\\MastermindGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\weedo\\MastermindGame\\MastermindGame.csproj": {
+    "C:\\Users\\weedo\\Documents\\GitHub\\MastermindGame\\MastermindGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\weedo\\MastermindGame\\MastermindGame.csproj",
+        "projectUniqueName": "C:\\Users\\weedo\\Documents\\GitHub\\MastermindGame\\MastermindGame.csproj",
         "projectName": "MastermindGame",
-        "projectPath": "C:\\Users\\weedo\\MastermindGame\\MastermindGame.csproj",
+        "projectPath": "C:\\Users\\weedo\\Documents\\GitHub\\MastermindGame\\MastermindGame.csproj",
         "packagesPath": "C:\\Users\\weedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\weedo\\MastermindGame\\obj\\",
+        "outputPath": "C:\\Users\\weedo\\Documents\\GitHub\\MastermindGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\weedo\\AppData\\Roaming\\NuGet\\NuGet.Config"
