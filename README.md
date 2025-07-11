@@ -25,6 +25,7 @@
 
 ### Installation GUIDE:
 **.NET SDK Required:**
+<br/>
 .NET SDK (version [insert version] or later)
 <br/>
 **How to Run:**
