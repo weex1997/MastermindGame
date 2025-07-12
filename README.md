@@ -51,24 +51,20 @@ And I previously built a similar logic game called Cows and Bulls using C# and U
 
 - The game settings handle the main variables, allowing customization of the code, the number of attempts, and even the length of the code.
 
-  [GameSettings.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/GameSettings.cs#L1)
+  [GameSettings.cs](https://github.com/weex1997/MastermindGame/blob/a1633f472ffebb522f011ac01e78adfd0bb7359f/src/GameSettings.cs#L1)
 
 ```csharp
 public abstract class GameSettings
 {
-    protected int codeLength = 4;
-    protected int maxAttempts = 10;
-    protected string code = "";
-
-    //To access and change the value
-    public string? Code { get; set; }
-    public int MaxAttempts { get; set; }
+    public int codeLength = 4;
+    public string code { get; set; } = "";
+    public int maxAttempts { get; set; } = 10;
 
 }
 ```
 - The game randomly generates a **4-digit number** using digits from 0 to 8, with **no repeating digits**.
 
-[CodeGenerator.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/CodeGenerator.cs#L6)
+[CodeGenerator.cs](https://github.com/weex1997/MastermindGame/blob/a1633f472ffebb522f011ac01e78adfd0bb7359f/src/CodeGenerator.cs#L6)
 
 ```csharp
 public string RandomHiddenCodeGenerator(int codeLength)
@@ -98,7 +94,7 @@ public string RandomHiddenCodeGenerator(int codeLength)
   - Well-placed pieces (X) – correct digit in the correct position.
   - Misplaced pieces (Y) – correct digit but in the wrong position.
 
-[CodeChecker.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/CodeChecker.cs#L6)
+[CodeChecker.cs](https://github.com/weex1997/MastermindGame/blob/a1633f472ffebb522f011ac01e78adfd0bb7359f/src/CodeChecker.cs#L6)
 
 ```csharp
     public (int wellPlaced, int misplaced) CheckPlaces(string guess, string code, int codeLength)
@@ -129,7 +125,7 @@ public string RandomHiddenCodeGenerator(int codeLength)
   - The code must be exactly the same length as defined in the game settings.
   - No repeated digits are allowed in the code.
 
-[GameManager.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/GameManager.cs#L80)
+[GameManager.cs](https://github.com/weex1997/MastermindGame/blob/a1633f472ffebb522f011ac01e78adfd0bb7359f/src/GameManager.cs#L79)
 
 ```csharp
   public bool PassTheRules(string code)
