@@ -4,7 +4,6 @@ obj/
 
 # .NET Core / .NET 5+ generated files
 *.dll
-*.exe
 *.app
 *.pdb
 *.cache
