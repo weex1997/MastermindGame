@@ -35,7 +35,7 @@ And I previously built a similar logic game called Cows and Bulls using C# and U
 - Open the terminal and navigate to the project directory.
 - Run the game using:
 ```bash
-./MastermindGame.exe
+./MastermindGame
 ```
 - You can specify the hidden code by using the parameter -c and follow it with the code
 ```bash
