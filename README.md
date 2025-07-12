@@ -34,6 +34,8 @@ Mastermind is a classic code-breaking logic game I recreated as a terminal-based
 
 I developed this project as part of my application to the Savvy Kickstarter Program
 
+I previously built a similar logic game called Cows and Bulls using C# and Unity. It also explores feedback-based number guessing. [here](https://github.com/weex1997/CowsAndBullsGame.git)
+
 ## How to Run:
 - Clone the repository.
 - Open the terminal and navigate to the project directory.
