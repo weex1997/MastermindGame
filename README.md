@@ -20,7 +20,7 @@
 **Role:** Solo Developer
 <br/>
 **Duration:** 5 hours
-<br/>**Tech:** C#, .NET 6 Runtime
+<br/>**Tech:** C#, .NET 6.0
 
 ## Introduction
 
