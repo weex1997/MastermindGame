@@ -25,8 +25,7 @@
 > [!NOTE]
 >**Installation GUIDE:**
 >  <br/>
-> **.NET SDK Required:**
-> .NET SDK (version [insert version] or later)
+> .NET 6 Runtime
 
 ## Introduction
 
