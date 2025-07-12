@@ -28,6 +28,12 @@
 > **.NET SDK Required:**
 > .NET SDK (version [insert version] or later)
 
+## Introduction
+
+Mastermind is a classic code-breaking logic game I recreated as a terminal-based C# project. The game challenges players to decipher a hidden code using logical deduction within a limited number of attempts.
+
+I developed this project as part of my application to the Savvy Kickstarter Program
+
 ## How to Run:
 - Clone the repository.
 - Open the terminal and navigate to the project directory.
@@ -44,18 +50,95 @@ dotnet run -c 1234
 dotnet run -t 15
 ```
 - End the game file by the sequence `Ctrl + Z`.
-## Introduction
 
-Mastermind is a classic code-breaking logic game I recreated as a terminal-based C# project. The game challenges players to decipher a hidden code using logical deduction within a limited number of attempts.
+  ##  Main Mechanics
+- The game settings handle the main variables, allowing customization of the code, the number of attempts, and even the length of the code.
+  [UIText.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/GameSettings.cs#L1)
 
-I developed this project as part of my application to the Savvy Kickstarter Program
+```csharp
+public abstract class GameSettings
+{
+    protected int codeLength = 4;
+    protected int maxAttempts = 10;
+    protected string code = "";
 
-##  Main Mechanics
+    //To access and change the value
+    public string? Code { get; set; }
+    public int MaxAttempts { get; set; }
 
+}
+```
 - The game randomly generates a **4-digit number** using digits from 0 to 8, with **no repeating digits**.
+[UIText.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/CodeGenerator.cs#L6)
+
+```csharp
+public string RandomHiddenCodeGenerator(int codeLength)
+    {
+
+        for (int j = 0; j < codeLength; j++)
+        {
+            Random random = new Random();
+            int rand = random.Next(0, 8);
+
+            // Ensure no duplicate digits
+            while (codeList.Contains(rand))
+            {
+                rand = random.Next(0, 8);
+            }
+            codeList.Add(rand); // Add the unique digit to the list
+        }
+
+        // Convert list of digits into a string
+        string code = string.Join("", codeList);
+
+        return code;
+    }
+```
+
 - Check the player's guess by providing feedback.
   - Well-placed pieces (X) – correct digit in the correct position.
   - Misplaced pieces (Y) – correct digit but in the wrong position.
+[UIText.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/CodeChecker.cs#L6)
 
-## Features
+```csharp
+    public (int wellPlaced, int misplaced) CheckPlaces(string guess, string code, int codeLength)
+    {
+        int wellPlaced = 0;
+        int misplaced = 0;
+
+        //Loop to check numbers ordered one by one and compare them
+        for (int i = 0; i < codeLength; i++)
+        {
+            if (code[i] == guess[i])
+            {
+                wellPlaced++;
+            }
+            //If the guess number is not equal to the code, then check the total of the code if contains the number
+            else if (code.Contains(guess[i]))
+            {
+                misplaced++;
+            }
+        }
+
+        return (wellPlaced, misplaced);
+    }
+```
+- Check the Rules of the code are:
+  - The code must contain only numbers.
+  - Allowed digits range from 0 to 8.
+  - The code must be exactly the same length as defined in the game settings.
+  - No repeated digits are allowed in the code.
+
+[UIText.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/GameManager.cs#L80)
+
+```csharp
+  public bool PassTheRules(string code)
+    {
+        if (code.All(c => char.IsDigit(c) && c >= '0' && c <= '8') && code.Length == codeLength && code.Distinct().Count() == code.Length)
+        {
+            return true;
+        }
+        else return false;
+    }
+```
 
