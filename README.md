@@ -39,11 +39,11 @@ And I previously built a similar logic game called Cows and Bulls using C# and U
 ```
 - You can specify the hidden code by using the parameter -c and follow it with the code
 ```bash
-./MastermindGame.exe -c 1234
+./MastermindGame -c 1234
 ```
  - Specify the attempts by using the parameter -t and follow it with the number of attempts
 ```bash
-./MastermindGame.exe -t 15
+./MastermindGame -t 15
 ```
 - End the game file by the sequence `Ctrl + Z`.
 
