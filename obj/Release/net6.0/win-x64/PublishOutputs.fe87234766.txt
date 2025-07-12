@@ -1,2 +1,0 @@
-C:\Users\weedo\Documents\GitHub\MastermindGame\MastermindGame\bin\Release\net6.0\win-x64\publish\MastermindGame.pdb
-C:\Users\weedo\Documents\GitHub\MastermindGame\MastermindGame\bin\Release\net6.0\win-x64\publish\MastermindGame.exe
