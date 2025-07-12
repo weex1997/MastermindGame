@@ -1,11 +1,7 @@
 public abstract class GameSettings
 {
-    protected int codeLength = 4;
-    protected int maxAttempts = 10;
-    protected string code = "";
-
-    //To access and change the values
-    public string? Code { get; set; }
-    public int MaxAttempts { get; set; }
+    public int codeLength = 4;
+    public string code { get; set; } = "";
+    public int maxAttempts { get; set; } = 10;
 
 }

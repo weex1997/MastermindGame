@@ -17,7 +17,6 @@ class GameManager : GameSettings
     // Starts the game logic
     public void Start()
     {
-
         // Generate random code if none was provided
         if (string.IsNullOrEmpty(code))
             code = codeGenerator.RandomHiddenCodeGenerator(codeLength);
@@ -62,7 +61,7 @@ class GameManager : GameSettings
 
             // Check for loss condition if the player reach the max attempts
             //And check if it is not winning, so as not to conflict with the last attempt
-            if (currentAttempt == maxAttempts && !isWin)
+            if (currentAttempt == maxAttempts - 1 && !isWin)
             {
                 Lose();
                 break;
