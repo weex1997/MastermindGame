@@ -51,7 +51,7 @@ And I previously built a similar logic game called Cows and Bulls using C# and U
 
 - The game settings handle the main variables, allowing customization of the code, the number of attempts, and even the length of the code.
 
-  [GameSettings.cs](https://github.com/weex1997/MastermindGame/blob/a1633f472ffebb522f011ac01e78adfd0bb7359f/src/GameSettings.cs#L1)
+[GameSettings.cs](https://github.com/weex1997/MastermindGame/blob/a1633f472ffebb522f011ac01e78adfd0bb7359f/src/GameSettings.cs#L1)
 
 ```csharp
 public abstract class GameSettings
