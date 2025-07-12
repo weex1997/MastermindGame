@@ -20,12 +20,7 @@
 **Role:** Solo Developer
 <br/>
 **Duration:** 5 hours
-<br/>**Tech:** C#
-
-> [!NOTE]
->**Installation GUIDE:**
->  <br/>
-> .NET 6 Runtime
+<br/>**Tech:** C#, .NET 6 Runtime
 
 ## Introduction
 
@@ -40,15 +35,15 @@ And I previously built a similar logic game called Cows and Bulls using C# and U
 - Open the terminal and navigate to the project directory.
 - Run the game using:
 ```bash
-dotnet run
+./MastermindGame.exe
 ```
 - You can specify the hidden code by using the parameter -c and follow it with the code
 ```bash
-dotnet run -c 1234
+./MastermindGame.exe -c 1234
 ```
  - Specify the attempts by using the parameter -t and follow it with the number of attempts
 ```bash
-dotnet run -t 15
+./MastermindGame.exe -t 15
 ```
 - End the game file by the sequence `Ctrl + Z`.
 
