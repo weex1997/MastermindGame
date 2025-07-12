@@ -69,6 +69,7 @@ public abstract class GameSettings
 }
 ```
 - The game randomly generates a **4-digit number** using digits from 0 to 8, with **no repeating digits**.
+
 [UIText.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/CodeGenerator.cs#L6)
 
 ```csharp
@@ -98,6 +99,7 @@ public string RandomHiddenCodeGenerator(int codeLength)
 - Check the player's guess by providing feedback.
   - Well-placed pieces (X) – correct digit in the correct position.
   - Misplaced pieces (Y) – correct digit but in the wrong position.
+
 [UIText.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/CodeChecker.cs#L6)
 
 ```csharp
