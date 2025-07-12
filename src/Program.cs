@@ -20,7 +20,7 @@
                     return;// Exit the program if the code is invalid
                 }
 
-                gameManager.Code = inputCode; // Set code on game setting by using game Manager
+                gameManager.code = inputCode; // Set code on game setting by using game Manager
             }
 
             // Check for max attempts argument: "-t" followed by a number
@@ -30,7 +30,7 @@
                 //Make sure the attempt format is valid, the attempt must be numbers and larger than 0
                 if (int.TryParse(args[i + 1], out int attempts) && attempts > 0)
                 {
-                    gameManager.MaxAttempts = attempts; // Set attempts
+                    gameManager.maxAttempts = attempts; // Set attempts
                 }
                 else
                 {

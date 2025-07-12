@@ -9,6 +9,7 @@ obj/
 *.pdb
 *.cache
 *.log
+*.sln
 
 # VS Code settings
 .vscode/
