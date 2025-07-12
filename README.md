@@ -51,7 +51,8 @@ dotnet run -t 15
 ```
 - End the game file by the sequence `Ctrl + Z`.
 
-  ##  Main Mechanics
+  ## Technical Explanation & Main Mechanics
+
 - The game settings handle the main variables, allowing customization of the code, the number of attempts, and even the length of the code.
 
   [GameSettings.cs](https://github.com/weex1997/MastermindGame/blob/11c4fcdf3cad8aeb320ed9b0757d1460b6c5455d/MastermindGame/GameSettings.cs#L1)
